@@ -1,0 +1,18 @@
+This is my entry for the 2010 Google AI Challenge
+http://csclub.uwaterloo.ca/contest/
+
+It is, to be honest, a complete mess of hacky, quick, dirty code.
+It was, however, good enough for 49th place out of approximately
+800 submissions.
+
+Quick Strategy Summary
+======================
+
+- determine if enemy is attainable
+- if so, perform alphabeta at as many plies as possible within the 1 
+   second time limit (typically between 7-16)
+- at terminal nodes or endgame states, evaulate the number of reachable
+   squares for each player and return a score (my reachable area - opponent
+   reachable area)
+- if enemy not attainable, fill remaining space as efficiently as possible
+   (flood fill)
