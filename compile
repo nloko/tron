@@ -1,0 +1,1 @@
+gmcs MyTronBot.cs GameState.cs Path.cs Room.cs Territory.cs Map.cs
