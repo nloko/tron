@@ -10,7 +10,7 @@ Quick Strategy Summary
 
 - determine if enemy is attainable
 - if so, perform alphabeta at as many plies as possible within the 1 
-   second time limit (typically between 7-16)
+   second time limit (typically between 7-12)
 - at terminal nodes or endgame states, evaulate the number of reachable
    squares for each player and return a score (my reachable area - opponent
    reachable area)
